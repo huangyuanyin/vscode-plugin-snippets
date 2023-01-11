@@ -1,0 +1,103 @@
+{
+  "vue2_codeBlock": {
+    "prefix": "vue2",
+    "body": [
+      "<template>",
+      "  <div></div>",
+      "</template>",
+      "",
+      "<script>",
+      "export default {",
+      "  name: 'demo',",
+      "  components: {},",
+      "  data() {",
+      "    return {}",
+      "  },",
+      "  methods: {},",
+      "  mounted() {}",
+      "}",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped></style>",
+      ""
+    ],
+    "description": "vue2模版初始化"
+  },
+  "vue3_codeBlock": {
+    "prefix": "vue3",
+    "body": [
+      "<template>",
+      "  <div></div>",
+      "</template>",
+      "",
+      "<script lang=\"ts\" setup>",
+      "import { ref } from \"vue\" ",
+      "",
+      "</script>",
+      "",
+      "<style lang=\"scss\" scoped>",
+      "",
+      "</style>"
+    ],
+    "description": "vue3模版初始化(默认setup语法糖和ts)"
+  },
+  "template_codeBlock": {
+    "prefix": "te",
+    "body": [
+      "<template>",
+      "  <div></div>",
+      "</template>"
+    ],
+    "description": "template模版"
+  },
+  "script": {
+		"prefix": "sc",
+		"body": [
+			"<script setup lang=\"ts\">",
+			"\t$0",
+			"</script>"
+		],
+		"description": "script模板(默认setup语法糖和ts)"
+	},
+  "style_codeBlock": {
+    "prefix": "style ",
+    "body": [
+      "<style lang=\"\"></style>"
+    ],
+    "description": "style基本模板"
+  },
+  "css_codeBlock": {
+    "prefix": "css",
+    "body": [
+      "<style scoped></style>"
+    ],
+    "description": "css style"
+  },
+  "scss_codeBlock": {
+		"prefix": "scss",
+		"body": [
+			"<style lang=\"scss\" scoped>",
+			"\t$0",
+			"</style>"
+		],
+		"description": "Scss style"
+	},
+  "sass_codeBlock": {
+		"prefix": "sass",
+		"body": [
+			"<style lang=\"sass\" scoped>",
+			"\t$0",
+			"</style>"
+		],
+		"description": "Sass style"
+	},
+  "less_codeBlock": {
+		"prefix": "less",
+		"body": [
+			"<style lang=\"less\" scoped>",
+			"\t$0",
+			"</style>"
+		],
+		"description": "Less style"
+	}
+}

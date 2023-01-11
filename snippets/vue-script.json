@@ -1,0 +1,65 @@
+{
+  "import_codeBlock": {
+    "prefix": "import",
+    "body": [
+      "import { $1 } from '$2'"
+    ],
+    "description": "import {...} from ..."
+  },
+  "data_codeBlock": {
+    "prefix": "data",
+    "body": [
+        "data() {",
+        "\treturn {",
+        "\t\t$1",
+        "\t}",
+        "},$0"
+    ],
+    "description": "data实例"
+  },
+  "defineProps_codeBlock": {
+    "prefix": "vprops",
+    "body": [
+        "const props = defineProps({\t",
+        "\t${0:name}: ${1:String}\t",
+        "})"
+    ],
+    "description": "defineProps模板"
+  },
+  "defineEmits_codeBlock": {
+    "prefix": "vemits",
+    "body": [
+        "const emit = defineEmits([''])"
+    ],
+    "description": "defineEmits模板"
+  },
+  "methods_codeBlock": {
+    "prefix": "vmethod",
+    "body": [
+        "methods: {",
+        "\t${1:name}() {",
+        "\t\t${0}",
+        "\t}",
+        "},"
+    ],
+    "description": "methods模板"
+  },
+  "computed_codeBlock": {
+    "prefix": "vcomputed",
+    "body": [
+        "computed: {",
+        "\t${1:name}() {",
+        "\t\treturn this.${2:data} ${0}",
+        "\t}",
+        "},"
+    ],
+    "description": "computed模板"
+  },
+  "v-for": {
+    "prefix": "vFor",
+    "body": [
+        "v-for=\"(${1:item}, ${2:index}) in ${3:items}\" :key=\"${4:index}\""
+    ],
+    "description": "v-for模板"
+  }
+}

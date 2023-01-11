@@ -12,8 +12,52 @@
   "contributes": {
     "snippets": [
       {
-        "language": "JavaScript",
-        "path": "./snippets/snippets.code-snippets"
+        "language": "vue",
+        "path": "./snippets/vue.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/vue-script.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/other.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/other.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/vue.json"
+      },
+      {
+        "language": "html",
+        "path": "./snippets/vue-script.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/other.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/vue-script.json"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/vue.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/other.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/vue-script.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/vue.json"
       }
     ]
   }

@@ -1,0 +1,27 @@
+{
+  "const_codeBlock": {
+    "prefix": "cb",
+    "body": [
+      "const name = () => {",
+      "  ",
+      "}"
+    ],
+    "description": "const代码块"
+  },
+  "function_codeBlock": {
+    "prefix": "fb",
+    "body": [
+      "function name(){",
+      "  return ''",
+      "}"
+    ],
+    "description": "function函数代码块"
+  },
+  "log_codeBlock": {
+    "prefix": "clg",
+    "body": [
+        "console.log(`output->${0}`,${0})"
+    ],
+    "description": "快速打印日志"
+  }
+}
