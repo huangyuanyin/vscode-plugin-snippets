@@ -1,11 +1,31 @@
 {
-  "name": "vscode-plugin-snippets",
-  "displayName": "vscode-plugin-snippets",
-  "description": "",
-  "version": "0.0.1",
+  "name": "Vue-Snippets-VSCode",
+  "displayName": "Vue-Snippets-VSCode",
+  "description": "a vue snippets for vscode",
+  "version": "1.0.2",
   "engines": {
-    "vscode": "^1.74.0"
+    "vscode": "^1.32.0"
   },
+  "publisher": "huangyuanyin",
+  "author": "黄原寅 <3443718488@qq.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/huangyuanyin/vscode-plugin-snippets.git"
+  },
+  "homepage": "https://github.com/huangyuanyin/vscode-plugin-snippets",
+  "bugs": "https://github.com/huangyuanyin/vscode-plugin-snippets/issues",
+  "icon": "assets/logo.png",
+  "keywords": [
+    "vue snippets",
+    "Vue Snippets",
+    "Vue Snippets VSCode",
+    "Vue-Snippets-VSCode",
+    "snippets",
+    "vue",
+    "vue3",
+    "Snippets"
+  ],
   "categories": [
     "Snippets"
   ],
