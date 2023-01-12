@@ -54,12 +54,5 @@
         "},"
     ],
     "description": "computed模板"
-  },
-  "v-for": {
-    "prefix": "vFor",
-    "body": [
-        "v-for=\"(${1:item}, ${2:index}) in ${3:items}\" :key=\"${4:index}\""
-    ],
-    "description": "v-for模板"
   }
 }

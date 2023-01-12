@@ -1,0 +1,100 @@
+{
+  "v-text": {
+    "prefix": "vtext",
+    "body": [
+      "v-text=\"${1:msg}\""
+    ],
+    "description": "Expects: string. Updates the element’s textContent."
+  },
+  "v-html": {
+    "prefix": "vhtml",
+    "body": [
+      "v-html=\"${1:html}\""
+    ],
+    "description": "Expects: string. Updates the element’s innerHTML."
+  },
+  "v-show": {
+    "prefix": "vshow",
+    "body": [
+      "v-show=\"${1:condition}\""
+    ],
+    "description": "Expects: any"
+  },
+  "v-if": {
+    "prefix": "vif",
+    "body": [
+      "v-if=\"${1:condition}\""
+    ],
+    "description": "Expects: any"
+  },
+  "v-else": {
+    "prefix": "velse",
+    "body": [
+      "v-else"
+    ],
+    "description": "Does not expect expression. previous sibling element must have v-if or v-else-if."
+  },
+  "v-else-if": {
+    "prefix": "velseif",
+    "body": [
+      "v-else-if=\"${1:condition}\""
+    ],
+    "description": "Expects: any. previous sibling element must have v-if or v-else-if."
+  },
+  "v-for(无key值)": {
+    "prefix": "vfornokey",
+    "body": [
+      "v-for=\"${1:item} in ${2:items}\""
+    ],
+    "description": "Expects: Array | Object | number | string"
+  },
+  "v-for": {
+    "prefix": "vfor",
+    "body": [
+      "v-for=\"(${1:item}, ${2:index}) in ${3:items}\" :key=\"${4:index}\""
+    ],
+    "description": "Expects: Array | Object | number | string"
+  },
+  "v-on": {
+    "prefix": "von",
+    "body": [
+      "v-on:${1:event}=\"${2:handle}\""
+    ],
+    "description": "Expects: Function | Inline Statement"
+  },
+  "v-bind": {
+    "prefix": "vbind",
+    "body": [
+      "v-bind$1=\"${2}\""
+    ],
+    "description": "Expects: any (with argument) | Object (without argument)"
+  },
+  "v-model": {
+    "prefix": "vmodel",
+    "body": [
+        "v-model=\"${1:something}\""
+    ],
+    "description": "Expects: varies based on value of form inputs element or output of components"
+  },
+  "v-slot": {
+    "prefix": "vslot",
+    "body": [
+      "v-slot$1=\"${2}\""
+    ],
+    "description": "Expects: JavaScript expression that is valid in a function argument position (supports destructuring in supported environments). Optional - only needed if expecting props to be passed to the slot."
+  },
+  "v-once": {
+    "prefix": "vonce",
+    "body": [
+      "v-once"
+    ],
+    "description": "v-once模板"
+  },
+  "component": {
+    "prefix": "iscomponent",
+    "body": [
+      "<component :is=\"${1:componentId}\"></component>$0"
+    ],
+    "description": "component模板"
+  }
+}
