@@ -42,7 +42,7 @@
     "description": "vue3模版初始化(默认setup语法糖和ts)"
   },
   "template_codeBlock": {
-    "prefix": "te",
+    "prefix": "template",
     "body": [
       "<template>",
       "  <div></div>",
@@ -51,16 +51,16 @@
     "description": "template模版"
   },
   "script": {
-		"prefix": "sc",
+		"prefix": "script",
 		"body": [
-			"<script setup lang=\"ts\">",
+			"<script lang=\"ts\" setup>",
 			"\t$0",
 			"</script>"
 		],
 		"description": "script模板(默认setup语法糖和ts)"
 	},
   "style_codeBlock": {
-    "prefix": "style ",
+    "prefix": "style",
     "body": [
       "<style lang=\"\"></style>"
     ],
